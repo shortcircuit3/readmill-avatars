@@ -20,7 +20,7 @@ $(function() {
             for (var i = 0; i < count; i++) {
               var userID = data.items[i].user.id;
               var avatarURL = "https://api.readmill.com/v2/users/" + userID + "/avatar?size=large&client_id=47c04f7eb4a2f8710a1a8fdf61244c37";
-              $(".avatars").append('<li><img id="'+ userID +'" src="'+ avatarURL +'"/><p>' + userID + '</p></li>');
+              $(".avatars").append('<li><a href="#_"><img id="'+ userID +'" src="'+ avatarURL +'"/></a><p>' + userID + '</p></li>');
             }
           }
       });
