@@ -1,15 +1,17 @@
-@charset "utf-8";
-
+/* line 3, /Users/alexmiles/Dropbox/dev/readmill/avatars/source/stylesheets/all.css.scss */
 body {
-  padding:20px;
-}
+  padding: 20px; }
 
+/* line 7, /Users/alexmiles/Dropbox/dev/readmill/avatars/source/stylesheets/all.css.scss */
+header {
+  margin-bottom: 40px; }
+
+/* line 11, /Users/alexmiles/Dropbox/dev/readmill/avatars/source/stylesheets/all.css.scss */
 ul {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
+/* line 16, /Users/alexmiles/Dropbox/dev/readmill/avatars/source/stylesheets/all.css.scss */
 li {
   display: inline-block;
-  margin: 0 20px 20px 0;
-}
+  margin: 0 20px 20px 0; }
