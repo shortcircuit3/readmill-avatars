@@ -25,15 +25,17 @@ $(function() {
 
             for (var i = 0; i < count; i++) {
               var userID = data.items[i].user.id;
-
-              // If the user is the editor, return false
-              // if (userID === 74485) {
-              //   refreshAvatars();
-              //   return false;
-              // }
+              var firstname = data.items[i].user.firstname || '*';
+              var lastname = data.items[i].user.lastname || '*';
 
               var avatarURL = "https://api.readmill.com/v2/users/" + userID + "/avatar?size=large&client_id=47c04f7eb4a2f8710a1a8fdf61244c37";
-              $(".avatars").append('<li><a href="#_"><img id="'+ userID +'" src="'+ avatarURL +'"/></a><p>' + userID + '</p></li>');
+              $(".avatars").append(
+                '<li>' +
+                  '<a href="#_"><img id="'+ userID +'" src="'+ avatarURL +'"/></a>' +
+                  '<p class="name">' +  firstname + ' ' + lastname + '</p>' +
+                  '<p>' + userID + '</p>'+
+                '</li>'
+              );
             }
           }
       });

@@ -1,17 +1,25 @@
 /* line 3, /Users/alexmiles/Dropbox/dev/readmill/avatars/source/stylesheets/all.css.scss */
 body {
-  padding: 20px; }
+  padding: 20px;
+  line-height: 1.5; }
 
-/* line 7, /Users/alexmiles/Dropbox/dev/readmill/avatars/source/stylesheets/all.css.scss */
+/* line 8, /Users/alexmiles/Dropbox/dev/readmill/avatars/source/stylesheets/all.css.scss */
 header {
   margin-bottom: 40px; }
 
-/* line 11, /Users/alexmiles/Dropbox/dev/readmill/avatars/source/stylesheets/all.css.scss */
+/* line 12, /Users/alexmiles/Dropbox/dev/readmill/avatars/source/stylesheets/all.css.scss */
 ul {
   margin: 0;
   padding: 0; }
 
-/* line 16, /Users/alexmiles/Dropbox/dev/readmill/avatars/source/stylesheets/all.css.scss */
+/* line 17, /Users/alexmiles/Dropbox/dev/readmill/avatars/source/stylesheets/all.css.scss */
 li {
   display: inline-block;
   margin: 0 20px 20px 0; }
+
+/* line 22, /Users/alexmiles/Dropbox/dev/readmill/avatars/source/stylesheets/all.css.scss */
+p {
+  margin: 0; }
+  /* line 25, /Users/alexmiles/Dropbox/dev/readmill/avatars/source/stylesheets/all.css.scss */
+  p.name {
+    font-weight: bold; }
