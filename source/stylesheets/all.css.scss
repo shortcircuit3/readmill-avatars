@@ -2,6 +2,7 @@
 
 body {
   padding:20px;
+  line-height: 1.5;
 }
 
 header {
@@ -16,4 +17,12 @@ ul {
 li {
   display: inline-block;
   margin: 0 20px 20px 0;
+}
+
+p {
+  margin: 0;
+
+  &.name {
+    font-weight: bold;
+  }
 }
